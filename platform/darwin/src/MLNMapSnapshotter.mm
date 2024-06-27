@@ -628,7 +628,7 @@ NSArray<MLNAttributionInfo *> *MLNAttributionInfosFromAttributions(mbgl::MapSnap
             break;
         case MLNAttributionInfoStyleMedium:
 #if TARGET_OS_IPHONE
-            logoImage = [UIImage imageNamed:@"maplibre-logo-icon" inBundle:[NSBundle mgl_frameworkBundle] compatibleWithTraitCollection:nil];
+            logoImage = [UIImage imageNamed:@"goong" inBundle:[NSBundle mgl_frameworkBundle] compatibleWithTraitCollection:nil];
 #else
             logoImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mgl_frameworkBundle] pathForResource:@"mapbox_helmet" ofType:@"pdf"]];
 #endif
@@ -644,7 +644,7 @@ NSArray<MLNAttributionInfo *> *MLNAttributionInfosFromAttributions(mbgl::MapSnap
 {
     MLNImage *logoImage;
 #if TARGET_OS_IPHONE
-    logoImage =[UIImage imageNamed:@"maplibre-logo-stroke-gray" inBundle:[NSBundle mgl_frameworkBundle] compatibleWithTraitCollection:nil];
+    logoImage =[UIImage imageNamed:@"goong" inBundle:[NSBundle mgl_frameworkBundle] compatibleWithTraitCollection:nil];
 #else
     logoImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mgl_frameworkBundle] pathForResource:@"mapbox" ofType:@"pdf"]];
 #endif
