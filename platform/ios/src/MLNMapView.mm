@@ -695,15 +695,15 @@ public:
 
     // setup logo
     //
-//    UIImage *logo = [UIImage mgl_resourceImageNamed:@"maplibre-logo-stroke-gray"];
-//    _logoView = [[UIImageView alloc] initWithImage:logo];
-//    _logoView.accessibilityTraits = UIAccessibilityTraitStaticText;
-//    _logoView.accessibilityLabel = NSLocalizedStringWithDefaultValue(@"LOGO_A11Y_LABEL", nil, nil, @"Mapbox", @"Accessibility label");
-//    _logoView.translatesAutoresizingMaskIntoConstraints = NO;
-//    [self addSubview:_logoView];
-//    _logoViewConstraints = [NSMutableArray array];
-//    _logoViewPosition = MLNOrnamentPositionBottomLeft;
-//    _logoViewMargins = MLNOrnamentDefaultPositionOffset;
+   UIImage *logo = [UIImage mgl_resourceImageNamed:@"goong"];
+   _logoView = [[UIImageView alloc] initWithImage:logo];
+   _logoView.accessibilityTraits = UIAccessibilityTraitStaticText;
+   _logoView.accessibilityLabel = NSLocalizedStringWithDefaultValue(@"LOGO_A11Y_LABEL", nil, nil, @"Mapbox", @"Accessibility label");
+   _logoView.translatesAutoresizingMaskIntoConstraints = NO;
+   [self addSubview:_logoView];
+   _logoViewConstraints = [NSMutableArray array];
+   _logoViewPosition = MLNOrnamentPositionBottomLeft;
+   _logoViewMargins = MLNOrnamentDefaultPositionOffset;
 
     // setup attribution
     //
